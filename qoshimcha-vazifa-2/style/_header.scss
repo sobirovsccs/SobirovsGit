@@ -1,0 +1,81 @@
+header{
+    height: 100px;
+   position: relative;
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    .qora-odam,.menu{
+        display: none;
+    }
+    .logo{
+        margin-right: 200px;
+    }
+
+    nav{
+        display: flex;
+
+        ul{
+            display: flex;
+            text-decoration: none;
+                    list-style: none;
+                    gap: 20px;
+
+            li{
+                text-decoration: none;
+                    list-style: none;
+                a{
+                    text-decoration: none;
+                    list-style: none;
+                    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #5C5555;
+
+                }
+            }
+        }
+    }
+    button{
+        margin-left: auto;
+        background: #6365EF;
+        padding: 8px 32px;
+
+        font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+border:  1px solid #6365EF;
+    }
+}
+@media(max-width:500px)
+{
+    header{
+        display: flex;
+        width: 100%;
+        padding: 50px;
+        
+        .menu{
+            display: block;
+        }
+        .logo{
+            margin-left: 0;
+        }
+        .qora-odam{
+            display: block;
+            
+            
+          
+        }
+        nav,button{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,155 @@
+.section-1 {
+    position: relative;
+    height: 120vh;
+    
+
+    padding: 24px 50px;
+
+    .box-1 {
+        display: flex;
+
+        .matnla-1 {
+
+            h3 {
+                font-family: cursive;
+                font-weight: 400;
+                margin-top: 30px;
+                font-size: 90px;
+                line-height: 126px;
+                /* or 140% */
+
+                display: flex;
+                align-items: center;
+
+
+                color: #1A1A1A;
+                max-width: 811px;
+
+
+            }
+
+            p {
+                margin-top: 30px;
+                font-weight: 350;
+                font-size: 24px;
+                line-height: 150%;
+                /* or 36px */
+
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.05em;
+
+                color: #5C5555;
+                max-width: 777px;
+            }
+
+            button {
+                margin-top: 30px;
+                background: #6365EF;
+                padding: 8px 32px;
+
+                font-size: 16px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+
+                color: #FFFFFF;
+                border: 1px solid #6365EF;
+            }
+
+            img {
+                position: absolute;
+                left: 150px;
+            }
+
+        }
+
+        .kares {
+
+            .kares-icons {
+                width: 152px;
+                height: 152px;
+                position: relative;
+                right: 35px;
+                bottom: 70px;
+
+            }
+            .button-block{
+                display: none;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .section-1 {
+        height: 150vh;
+        width: 100%;
+
+        .box-1 {
+            display: block;
+
+            .matnla-1 {
+                h3 {
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 56px;
+                    /* or 140% */
+                    max-width: 311px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.016em;
+                    text-transform: lowercase;
+                    
+                    color: #1A1A1A;
+                    
+
+                }
+
+                .p-1 {
+                    font-weight: 350;
+                    font-size: 14px;
+                    line-height: 150%;
+                    /* or 21px */
+                    
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.05em;
+                    
+                    color: #5C5555;
+                    max-width: 450px;
+                    
+                }
+
+                .button-none {
+                    display: none;
+                }
+
+                img {
+                    display: none;
+                }
+            }
+
+            .kares {
+                button {
+                    display: block;
+
+
+                    background: #6365EF;
+                    padding: 8px 32px;
+
+                    font-size: 16px;
+                    line-height: 20px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+
+                    color: #FFFFFF;
+                    border: 1px solid #6365EF;
+                }
+            }
+        }
+
+    }
+}

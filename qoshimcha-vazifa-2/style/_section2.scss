@@ -1,0 +1,132 @@
+.section-2 {
+    height: 70vh;
+    background: #FFFFFF;
+    padding:50px 0px ;
+
+
+    .box-2 {
+        display: flex;
+        height: 239px;
+        
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 24px 24px;
+
+        .matnla-2 {
+            // padding: 24px;
+            // margin-right: 60px;
+            
+
+
+            a {
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 150%;
+                /* or 75px */
+                list-style:none ;
+                text-decoration: none;
+
+               
+
+                color: #6365EF;
+
+            }
+
+            h4 {
+                font-weight: 400;
+                font-size: 27px;
+                line-height: 34px;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.07em;
+                max-width: 300px;
+                
+                color: #1A1A1A;
+            }
+        }
+
+        .rasmla-2 {
+
+            position: relative;
+            bottom: 30px;
+            right: 30px;
+
+            .rasm-2{
+                position: relative;
+                bottom: 270px;
+                left: 350px;
+            }
+        }
+
+        .matnla-2-2 {
+            p {
+                font-weight: 350;
+                font-size: 25px;
+                line-height: 150%;
+                /* or 38px */
+                margin-bottom: 20px;
+                
+              max-width: 602px;
+                letter-spacing: 0.05em;
+                
+                color: #5C5555;
+                
+
+            }
+
+            a {
+                font-weight: 700;
+                font-size: 24px;
+                text-decoration: none;
+                line-height: 150%;
+                /* identical to box height, or 36px */
+                list-style: none;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.05em;
+
+                color: #6365EF;
+
+            }
+        }
+
+
+
+
+    }
+}
+@media(max-width:500px)
+{
+    .section-2{
+        height: 120vh;
+
+        .box-2{
+            display: block;
+            
+            .matnla-2{
+                margin-bottom: 100px;
+
+            }
+            .rasmla-2{
+                left: -100px;
+            }
+            .matnla-2-2{
+                p{
+                    font-weight: 350;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+
+color: #5C5555;
+
+                }
+            }
+        }
+    }
+}
